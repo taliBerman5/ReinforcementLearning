@@ -1,0 +1,1112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="despot"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake\;CMake Files\examples\;CMake Files\examples\cpp_models\;CMake Files\examples\cpp_models\adventurer\;CMake Files\examples\cpp_models\bridge\;CMake Files\examples\cpp_models\chain\;CMake Files\examples\cpp_models\navigation\;CMake Files\examples\cpp_models\pocman\;CMake Files\examples\cpp_models\reg_demo\;CMake Files\examples\cpp_models\rock_sample\;CMake Files\examples\cpp_models\simple_rock_sample\;CMake Files\examples\cpp_models\tag\;CMake Files\examples\cpp_models\tiger\;CMake Files\examples\pomdpx_models\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/caspl202/Desktop/despot/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/home/caspl202/Desktop/despot/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/home/caspl202/Desktop/despot/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="despot">
+				<Option output="/home/caspl202/Desktop/despot/cmake-build-debug/libdespot.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/caspl202/Desktop/despot/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/caspl202/Desktop/despot/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/Makefile&quot;  VERBOSE=1 despot"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="despot/fast">
+				<Option output="/home/caspl202/Desktop/despot/cmake-build-debug/libdespot.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/caspl202/Desktop/despot/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/caspl202/Desktop/despot/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/Makefile&quot;  VERBOSE=1 despot/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/caspl202/Desktop/despot/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/caspl202/Desktop/despot/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/home/caspl202/Desktop/despot/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/home/caspl202/Desktop/despot/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="despot_adventurer">
+				<Option output="/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/adventurer/despot_adventurer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/adventurer"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/caspl202/Desktop/despot/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/adventurer/Makefile&quot;  VERBOSE=1 despot_adventurer"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/adventurer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/adventurer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/adventurer/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="despot_adventurer/fast">
+				<Option output="/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/adventurer/despot_adventurer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/adventurer"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/caspl202/Desktop/despot/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/adventurer/Makefile&quot;  VERBOSE=1 despot_adventurer/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/adventurer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/adventurer/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/adventurer/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="despot_bridge">
+				<Option output="/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/bridge/despot_bridge" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/bridge"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/caspl202/Desktop/despot/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/bridge/Makefile&quot;  VERBOSE=1 despot_bridge"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/bridge/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/bridge/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/bridge/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="despot_bridge/fast">
+				<Option output="/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/bridge/despot_bridge" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/bridge"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/caspl202/Desktop/despot/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/bridge/Makefile&quot;  VERBOSE=1 despot_bridge/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/bridge/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/bridge/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/bridge/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="despot_chain">
+				<Option output="/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/chain/despot_chain" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/chain"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/caspl202/Desktop/despot/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/chain/Makefile&quot;  VERBOSE=1 despot_chain"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/chain/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/chain/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/chain/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="despot_chain/fast">
+				<Option output="/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/chain/despot_chain" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/chain"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/caspl202/Desktop/despot/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/chain/Makefile&quot;  VERBOSE=1 despot_chain/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/chain/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/chain/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/chain/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="despot_navigation">
+				<Option output="/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/navigation/despot_navigation" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/navigation"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/caspl202/Desktop/despot/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/navigation/Makefile&quot;  VERBOSE=1 despot_navigation"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/navigation/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/navigation/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/navigation/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="despot_navigation/fast">
+				<Option output="/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/navigation/despot_navigation" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/navigation"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/caspl202/Desktop/despot/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/navigation/Makefile&quot;  VERBOSE=1 despot_navigation/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/navigation/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/navigation/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/navigation/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="despot_pocman">
+				<Option output="/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/pocman/despot_pocman" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/pocman"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/caspl202/Desktop/despot/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/pocman/Makefile&quot;  VERBOSE=1 despot_pocman"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/pocman/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/pocman/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/pocman/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="despot_pocman/fast">
+				<Option output="/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/pocman/despot_pocman" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/pocman"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/caspl202/Desktop/despot/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/pocman/Makefile&quot;  VERBOSE=1 despot_pocman/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/pocman/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/pocman/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/pocman/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="despot_reg_demo">
+				<Option output="/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/reg_demo/despot_reg_demo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/reg_demo"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/caspl202/Desktop/despot/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/reg_demo/Makefile&quot;  VERBOSE=1 despot_reg_demo"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/reg_demo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/reg_demo/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/reg_demo/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="despot_reg_demo/fast">
+				<Option output="/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/reg_demo/despot_reg_demo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/reg_demo"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/caspl202/Desktop/despot/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/reg_demo/Makefile&quot;  VERBOSE=1 despot_reg_demo/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/reg_demo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/reg_demo/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/reg_demo/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="despot_rock_sample">
+				<Option output="/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/rock_sample/despot_rock_sample" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/rock_sample"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/caspl202/Desktop/despot/include"/>
+					<Add directory="/home/caspl202/Desktop/despot/examples/cpp_models/rock_sample/src"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/rock_sample/Makefile&quot;  VERBOSE=1 despot_rock_sample"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/rock_sample/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/rock_sample/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/rock_sample/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="despot_rock_sample/fast">
+				<Option output="/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/rock_sample/despot_rock_sample" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/rock_sample"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/caspl202/Desktop/despot/include"/>
+					<Add directory="/home/caspl202/Desktop/despot/examples/cpp_models/rock_sample/src"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/rock_sample/Makefile&quot;  VERBOSE=1 despot_rock_sample/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/rock_sample/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/rock_sample/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/rock_sample/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="despot_fvrs">
+				<Option output="/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/rock_sample/despot_fvrs" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/rock_sample"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/caspl202/Desktop/despot/include"/>
+					<Add directory="/home/caspl202/Desktop/despot/examples/cpp_models/rock_sample/src"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/rock_sample/Makefile&quot;  VERBOSE=1 despot_fvrs"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/rock_sample/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/rock_sample/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/rock_sample/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="despot_fvrs/fast">
+				<Option output="/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/rock_sample/despot_fvrs" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/rock_sample"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/caspl202/Desktop/despot/include"/>
+					<Add directory="/home/caspl202/Desktop/despot/examples/cpp_models/rock_sample/src"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/rock_sample/Makefile&quot;  VERBOSE=1 despot_fvrs/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/rock_sample/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/rock_sample/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/rock_sample/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="despot_simple_rock_sample">
+				<Option output="/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/simple_rock_sample/despot_simple_rock_sample" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/simple_rock_sample"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/caspl202/Desktop/despot/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/simple_rock_sample/Makefile&quot;  VERBOSE=1 despot_simple_rock_sample"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/simple_rock_sample/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/simple_rock_sample/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/simple_rock_sample/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="despot_simple_rock_sample/fast">
+				<Option output="/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/simple_rock_sample/despot_simple_rock_sample" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/simple_rock_sample"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/caspl202/Desktop/despot/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/simple_rock_sample/Makefile&quot;  VERBOSE=1 despot_simple_rock_sample/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/simple_rock_sample/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/simple_rock_sample/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/simple_rock_sample/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="despot_laser_tag">
+				<Option output="/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/tag/despot_laser_tag" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/tag"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/caspl202/Desktop/despot/include"/>
+					<Add directory="/home/caspl202/Desktop/despot/examples/cpp_models/tag/src"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/tag/Makefile&quot;  VERBOSE=1 despot_laser_tag"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/tag/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/tag/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/tag/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="despot_laser_tag/fast">
+				<Option output="/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/tag/despot_laser_tag" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/tag"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/caspl202/Desktop/despot/include"/>
+					<Add directory="/home/caspl202/Desktop/despot/examples/cpp_models/tag/src"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/tag/Makefile&quot;  VERBOSE=1 despot_laser_tag/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/tag/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/tag/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/tag/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="despot_noisy_laser_tag">
+				<Option output="/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/tag/despot_noisy_laser_tag" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/tag"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/caspl202/Desktop/despot/include"/>
+					<Add directory="/home/caspl202/Desktop/despot/examples/cpp_models/tag/src"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/tag/Makefile&quot;  VERBOSE=1 despot_noisy_laser_tag"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/tag/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/tag/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/tag/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="despot_noisy_laser_tag/fast">
+				<Option output="/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/tag/despot_noisy_laser_tag" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/tag"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/caspl202/Desktop/despot/include"/>
+					<Add directory="/home/caspl202/Desktop/despot/examples/cpp_models/tag/src"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/tag/Makefile&quot;  VERBOSE=1 despot_noisy_laser_tag/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/tag/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/tag/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/tag/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="despot_tag">
+				<Option output="/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/tag/despot_tag" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/tag"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/caspl202/Desktop/despot/include"/>
+					<Add directory="/home/caspl202/Desktop/despot/examples/cpp_models/tag/src"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/tag/Makefile&quot;  VERBOSE=1 despot_tag"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/tag/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/tag/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/tag/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="despot_tag/fast">
+				<Option output="/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/tag/despot_tag" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/tag"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/caspl202/Desktop/despot/include"/>
+					<Add directory="/home/caspl202/Desktop/despot/examples/cpp_models/tag/src"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/tag/Makefile&quot;  VERBOSE=1 despot_tag/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/tag/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/tag/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/tag/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="despot_tiger">
+				<Option output="/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/tiger/despot_tiger" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/tiger"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/caspl202/Desktop/despot/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/tiger/Makefile&quot;  VERBOSE=1 despot_tiger"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/tiger/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/tiger/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/tiger/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="despot_tiger/fast">
+				<Option output="/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/tiger/despot_tiger" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/tiger"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/caspl202/Desktop/despot/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/tiger/Makefile&quot;  VERBOSE=1 despot_tiger/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/tiger/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/tiger/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/cpp_models/tiger/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="despot_pomdpx">
+				<Option output="/home/caspl202/Desktop/despot/cmake-build-debug/examples/pomdpx_models/despot_pomdpx" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/caspl202/Desktop/despot/cmake-build-debug/examples/pomdpx_models"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/caspl202/Desktop/despot/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/pomdpx_models/Makefile&quot;  VERBOSE=1 despot_pomdpx"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/pomdpx_models/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/pomdpx_models/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/pomdpx_models/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="despot_pomdpx/fast">
+				<Option output="/home/caspl202/Desktop/despot/cmake-build-debug/examples/pomdpx_models/despot_pomdpx" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/caspl202/Desktop/despot/cmake-build-debug/examples/pomdpx_models"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/caspl202/Desktop/despot/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/pomdpx_models/Makefile&quot;  VERBOSE=1 despot_pomdpx/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/pomdpx_models/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/pomdpx_models/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/caspl202/Desktop/despot/cmake-build-debug/examples/pomdpx_models/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/caspl202/Desktop/despot/examples/cpp_models/adventurer/src/adventurer.cpp">
+			<Option target="despot_adventurer"/>
+		</Unit>
+		<Unit filename="/home/caspl202/Desktop/despot/examples/cpp_models/adventurer/src/adventurer.h">
+			<Option target="despot_adventurer"/>
+		</Unit>
+		<Unit filename="/home/caspl202/Desktop/despot/examples/cpp_models/adventurer/src/main.cpp">
+			<Option target="despot_adventurer"/>
+		</Unit>
+		<Unit filename="/home/caspl202/Desktop/despot/examples/cpp_models/bridge/src/bridge.cpp">
+			<Option target="despot_bridge"/>
+		</Unit>
+		<Unit filename="/home/caspl202/Desktop/despot/examples/cpp_models/bridge/src/bridge.h">
+			<Option target="despot_bridge"/>
+		</Unit>
+		<Unit filename="/home/caspl202/Desktop/despot/examples/cpp_models/bridge/src/main.cpp">
+			<Option target="despot_bridge"/>
+		</Unit>
+		<Unit filename="/home/caspl202/Desktop/despot/examples/cpp_models/chain/src/chain.cpp">
+			<Option target="despot_chain"/>
+		</Unit>
+		<Unit filename="/home/caspl202/Desktop/despot/examples/cpp_models/chain/src/chain.h">
+			<Option target="despot_chain"/>
+		</Unit>
+		<Unit filename="/home/caspl202/Desktop/despot/examples/cpp_models/chain/src/main.cpp">
+			<Option target="despot_chain"/>
+		</Unit>
+		<Unit filename="/home/caspl202/Desktop/despot/examples/cpp_models/navigation/src/main.cpp">
+			<Option target="despot_navigation"/>
+		</Unit>
+		<Unit filename="/home/caspl202/Desktop/despot/examples/cpp_models/navigation/src/navigation.cpp">
+			<Option target="despot_navigation"/>
+		</Unit>
+		<Unit filename="/home/caspl202/Desktop/despot/examples/cpp_models/navigation/src/navigation.h">
+			<Option target="despot_navigation"/>
+		</Unit>
+		<Unit filename="/home/caspl202/Desktop/despot/examples/cpp_models/pocman/src/main.cpp">
+			<Option target="despot_pocman"/>
+		</Unit>
+		<Unit filename="/home/caspl202/Desktop/despot/examples/cpp_models/pocman/src/pocman.cpp">
+			<Option target="despot_pocman"/>
+		</Unit>
+		<Unit filename="/home/caspl202/Desktop/despot/examples/cpp_models/pocman/src/pocman.h">
+			<Option target="despot_pocman"/>
+		</Unit>
+		<Unit filename="/home/caspl202/Desktop/despot/examples/cpp_models/reg_demo/src/main.cpp">
+			<Option target="despot_reg_demo"/>
+		</Unit>
+		<Unit filename="/home/caspl202/Desktop/despot/examples/cpp_models/reg_demo/src/reg_demo.cpp">
+			<Option target="despot_reg_demo"/>
+		</Unit>
+		<Unit filename="/home/caspl202/Desktop/despot/examples/cpp_models/reg_demo/src/reg_demo.h">
+			<Option target="despot_reg_demo"/>
+		</Unit>
+		<Unit filename="/home/caspl202/Desktop/despot/examples/cpp_models/rock_sample/src/base/base_rock_sample.cpp">
+			<Option target="despot_rock_sample"/>
+			<Option target="despot_fvrs"/>
+		</Unit>
+		<Unit filename="/home/caspl202/Desktop/despot/examples/cpp_models/rock_sample/src/base/base_rock_sample.h">
+			<Option target="despot_rock_sample"/>
+			<Option target="despot_fvrs"/>
+		</Unit>
+		<Unit filename="/home/caspl202/Desktop/despot/examples/cpp_models/rock_sample/src/fvrs/fvrs.cpp">
+			<Option target="despot_fvrs"/>
+		</Unit>
+		<Unit filename="/home/caspl202/Desktop/despot/examples/cpp_models/rock_sample/src/fvrs/fvrs.h">
+			<Option target="despot_fvrs"/>
+		</Unit>
+		<Unit filename="/home/caspl202/Desktop/despot/examples/cpp_models/rock_sample/src/fvrs/main.cpp">
+			<Option target="despot_fvrs"/>
+		</Unit>
+		<Unit filename="/home/caspl202/Desktop/despot/examples/cpp_models/rock_sample/src/rock_sample/main.cpp">
+			<Option target="despot_rock_sample"/>
+		</Unit>
+		<Unit filename="/home/caspl202/Desktop/despot/examples/cpp_models/rock_sample/src/rock_sample/rock_sample.cpp">
+			<Option target="despot_rock_sample"/>
+		</Unit>
+		<Unit filename="/home/caspl202/Desktop/despot/examples/cpp_models/rock_sample/src/rock_sample/rock_sample.h">
+			<Option target="despot_rock_sample"/>
+		</Unit>
+		<Unit filename="/home/caspl202/Desktop/despot/examples/cpp_models/simple_rock_sample/src/main.cpp">
+			<Option target="despot_simple_rock_sample"/>
+		</Unit>
+		<Unit filename="/home/caspl202/Desktop/despot/examples/cpp_models/simple_rock_sample/src/simple_rock_sample.cpp">
+			<Option target="despot_simple_rock_sample"/>
+		</Unit>
+		<Unit filename="/home/caspl202/Desktop/despot/examples/cpp_models/simple_rock_sample/src/simple_rock_sample.h">
+			<Option target="despot_simple_rock_sample"/>
+		</Unit>
+		<Unit filename="/home/caspl202/Desktop/despot/examples/cpp_models/tag/src/base/base_tag.cpp">
+			<Option target="despot_laser_tag"/>
+			<Option target="despot_noisy_laser_tag"/>
+			<Option target="despot_tag"/>
+		</Unit>
+		<Unit filename="/home/caspl202/Desktop/despot/examples/cpp_models/tag/src/base/base_tag.h">
+			<Option target="despot_laser_tag"/>
+			<Option target="despot_noisy_laser_tag"/>
+			<Option target="despot_tag"/>
+		</Unit>
+		<Unit filename="/home/caspl202/Desktop/despot/examples/cpp_models/tag/src/laser_tag/laser_tag.cpp">
+			<Option target="despot_laser_tag"/>
+		</Unit>
+		<Unit filename="/home/caspl202/Desktop/despot/examples/cpp_models/tag/src/laser_tag/laser_tag.h">
+			<Option target="despot_laser_tag"/>
+		</Unit>
+		<Unit filename="/home/caspl202/Desktop/despot/examples/cpp_models/tag/src/laser_tag/main.cpp">
+			<Option target="despot_laser_tag"/>
+		</Unit>
+		<Unit filename="/home/caspl202/Desktop/despot/examples/cpp_models/tag/src/noisy_laser_tag/main.cpp">
+			<Option target="despot_noisy_laser_tag"/>
+		</Unit>
+		<Unit filename="/home/caspl202/Desktop/despot/examples/cpp_models/tag/src/noisy_laser_tag/noisy_laser_tag.cpp">
+			<Option target="despot_noisy_laser_tag"/>
+		</Unit>
+		<Unit filename="/home/caspl202/Desktop/despot/examples/cpp_models/tag/src/noisy_laser_tag/noisy_laser_tag.h">
+			<Option target="despot_noisy_laser_tag"/>
+		</Unit>
+		<Unit filename="/home/caspl202/Desktop/despot/examples/cpp_models/tag/src/tag/main.cpp">
+			<Option target="despot_tag"/>
+		</Unit>
+		<Unit filename="/home/caspl202/Desktop/despot/examples/cpp_models/tag/src/tag/tag.cpp">
+			<Option target="despot_tag"/>
+		</Unit>
+		<Unit filename="/home/caspl202/Desktop/despot/examples/cpp_models/tag/src/tag/tag.h">
+			<Option target="despot_tag"/>
+		</Unit>
+		<Unit filename="/home/caspl202/Desktop/despot/examples/cpp_models/tiger/src/main.cpp">
+			<Option target="despot_tiger"/>
+		</Unit>
+		<Unit filename="/home/caspl202/Desktop/despot/examples/cpp_models/tiger/src/tiger.cpp">
+			<Option target="despot_tiger"/>
+		</Unit>
+		<Unit filename="/home/caspl202/Desktop/despot/examples/cpp_models/tiger/src/tiger.h">
+			<Option target="despot_tiger"/>
+		</Unit>
+		<Unit filename="/home/caspl202/Desktop/despot/examples/pomdpx_models/src/main.cpp">
+			<Option target="despot_pomdpx"/>
+		</Unit>
+		<Unit filename="/home/caspl202/Desktop/despot/src/core/builtin_lower_bounds.cpp">
+			<Option target="despot"/>
+		</Unit>
+		<Unit filename="/home/caspl202/Desktop/despot/src/core/builtin_policy.cpp">
+			<Option target="despot"/>
+		</Unit>
+		<Unit filename="/home/caspl202/Desktop/despot/src/core/builtin_upper_bounds.cpp">
+			<Option target="despot"/>
+		</Unit>
+		<Unit filename="/home/caspl202/Desktop/despot/src/core/globals.cpp">
+			<Option target="despot"/>
+		</Unit>
+		<Unit filename="/home/caspl202/Desktop/despot/src/core/mdp.cpp">
+			<Option target="despot"/>
+		</Unit>
+		<Unit filename="/home/caspl202/Desktop/despot/src/core/node.cpp">
+			<Option target="despot"/>
+		</Unit>
+		<Unit filename="/home/caspl202/Desktop/despot/src/core/particle_belief.cpp">
+			<Option target="despot"/>
+		</Unit>
+		<Unit filename="/home/caspl202/Desktop/despot/src/core/pomdp_world.cpp">
+			<Option target="despot"/>
+		</Unit>
+		<Unit filename="/home/caspl202/Desktop/despot/src/core/solver.cpp">
+			<Option target="despot"/>
+		</Unit>
+		<Unit filename="/home/caspl202/Desktop/despot/src/evaluator.cpp">
+			<Option target="despot"/>
+		</Unit>
+		<Unit filename="/home/caspl202/Desktop/despot/src/interface/belief.cpp">
+			<Option target="despot"/>
+		</Unit>
+		<Unit filename="/home/caspl202/Desktop/despot/src/interface/default_policy.cpp">
+			<Option target="despot"/>
+		</Unit>
+		<Unit filename="/home/caspl202/Desktop/despot/src/interface/lower_bound.cpp">
+			<Option target="despot"/>
+		</Unit>
+		<Unit filename="/home/caspl202/Desktop/despot/src/interface/pomdp.cpp">
+			<Option target="despot"/>
+		</Unit>
+		<Unit filename="/home/caspl202/Desktop/despot/src/interface/upper_bound.cpp">
+			<Option target="despot"/>
+		</Unit>
+		<Unit filename="/home/caspl202/Desktop/despot/src/interface/world.cpp">
+			<Option target="despot"/>
+		</Unit>
+		<Unit filename="/home/caspl202/Desktop/despot/src/logger.cpp">
+			<Option target="despot"/>
+		</Unit>
+		<Unit filename="/home/caspl202/Desktop/despot/src/planner.cpp">
+			<Option target="despot"/>
+		</Unit>
+		<Unit filename="/home/caspl202/Desktop/despot/src/plannerbase.cpp">
+			<Option target="despot"/>
+		</Unit>
+		<Unit filename="/home/caspl202/Desktop/despot/src/pomdpx/parser/function.cpp">
+			<Option target="despot"/>
+		</Unit>
+		<Unit filename="/home/caspl202/Desktop/despot/src/pomdpx/parser/parser.cpp">
+			<Option target="despot"/>
+		</Unit>
+		<Unit filename="/home/caspl202/Desktop/despot/src/pomdpx/parser/variable.cpp">
+			<Option target="despot"/>
+		</Unit>
+		<Unit filename="/home/caspl202/Desktop/despot/src/pomdpx/pomdpx.cpp">
+			<Option target="despot"/>
+		</Unit>
+		<Unit filename="/home/caspl202/Desktop/despot/src/random_streams.cpp">
+			<Option target="despot"/>
+		</Unit>
+		<Unit filename="/home/caspl202/Desktop/despot/src/solver/aems.cpp">
+			<Option target="despot"/>
+		</Unit>
+		<Unit filename="/home/caspl202/Desktop/despot/src/solver/baseline_solver.cpp">
+			<Option target="despot"/>
+		</Unit>
+		<Unit filename="/home/caspl202/Desktop/despot/src/solver/despot.cpp">
+			<Option target="despot"/>
+		</Unit>
+		<Unit filename="/home/caspl202/Desktop/despot/src/solver/pomcp.cpp">
+			<Option target="despot"/>
+		</Unit>
+		<Unit filename="/home/caspl202/Desktop/despot/src/util/coord.cpp">
+			<Option target="despot"/>
+		</Unit>
+		<Unit filename="/home/caspl202/Desktop/despot/src/util/dirichlet.cpp">
+			<Option target="despot"/>
+		</Unit>
+		<Unit filename="/home/caspl202/Desktop/despot/src/util/exec_tracker.cpp">
+			<Option target="despot"/>
+		</Unit>
+		<Unit filename="/home/caspl202/Desktop/despot/src/util/floor.cpp">
+			<Option target="despot"/>
+		</Unit>
+		<Unit filename="/home/caspl202/Desktop/despot/src/util/gamma.cpp">
+			<Option target="despot"/>
+		</Unit>
+		<Unit filename="/home/caspl202/Desktop/despot/src/util/logging.cpp">
+			<Option target="despot"/>
+		</Unit>
+		<Unit filename="/home/caspl202/Desktop/despot/src/util/random.cpp">
+			<Option target="despot"/>
+		</Unit>
+		<Unit filename="/home/caspl202/Desktop/despot/src/util/seeds.cpp">
+			<Option target="despot"/>
+		</Unit>
+		<Unit filename="/home/caspl202/Desktop/despot/src/util/tinyxml/tinystr.cpp">
+			<Option target="despot"/>
+		</Unit>
+		<Unit filename="/home/caspl202/Desktop/despot/src/util/tinyxml/tinyxml.cpp">
+			<Option target="despot"/>
+		</Unit>
+		<Unit filename="/home/caspl202/Desktop/despot/src/util/tinyxml/tinyxmlerror.cpp">
+			<Option target="despot"/>
+		</Unit>
+		<Unit filename="/home/caspl202/Desktop/despot/src/util/tinyxml/tinyxmlparser.cpp">
+			<Option target="despot"/>
+		</Unit>
+		<Unit filename="/home/caspl202/Desktop/despot/src/util/util.cpp">
+			<Option target="despot"/>
+		</Unit>
+		<Unit filename="/home/caspl202/Desktop/despot/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/caspl202/Desktop/despot/cmake/DespotConfig.cmake.in">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/caspl202/Desktop/despot/examples/cpp_models/adventurer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\examples\cpp_models\adventurer\"/>
+		</Unit>
+		<Unit filename="/home/caspl202/Desktop/despot/examples/cpp_models/bridge/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\examples\cpp_models\bridge\"/>
+		</Unit>
+		<Unit filename="/home/caspl202/Desktop/despot/examples/cpp_models/chain/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\examples\cpp_models\chain\"/>
+		</Unit>
+		<Unit filename="/home/caspl202/Desktop/despot/examples/cpp_models/navigation/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\examples\cpp_models\navigation\"/>
+		</Unit>
+		<Unit filename="/home/caspl202/Desktop/despot/examples/cpp_models/pocman/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\examples\cpp_models\pocman\"/>
+		</Unit>
+		<Unit filename="/home/caspl202/Desktop/despot/examples/cpp_models/reg_demo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\examples\cpp_models\reg_demo\"/>
+		</Unit>
+		<Unit filename="/home/caspl202/Desktop/despot/examples/cpp_models/rock_sample/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\examples\cpp_models\rock_sample\"/>
+		</Unit>
+		<Unit filename="/home/caspl202/Desktop/despot/examples/cpp_models/simple_rock_sample/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\examples\cpp_models\simple_rock_sample\"/>
+		</Unit>
+		<Unit filename="/home/caspl202/Desktop/despot/examples/cpp_models/tag/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\examples\cpp_models\tag\"/>
+		</Unit>
+		<Unit filename="/home/caspl202/Desktop/despot/examples/cpp_models/tiger/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\examples\cpp_models\tiger\"/>
+		</Unit>
+		<Unit filename="/home/caspl202/Desktop/despot/examples/pomdpx_models/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\examples\pomdpx_models\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
